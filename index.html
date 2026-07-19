@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Health &amp; Wellness — Faith, Wellness &amp; Smart Technology | Coming Soon</title>
+<meta name="description" content="A faith-driven initiative exploring where modern AI meets everyday wellness — honest education and simple tools to help you learn and pursue a healthier life. Informational only, not medical advice. Coming soon." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://aihealthandwellness.com/" />
+<meta name="theme-color" content="#0f2a26" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="AI Health & Wellness — Coming Soon" />
+<meta property="og:description" content="Where faith, wellness, and smart technology meet. Honest information, no hype, no health claims. Coming soon." />
+<meta property="og:url" content="https://aihealthandwellness.com/" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{--bg:#f6f4ee;--bg2:#efece2;--surface:#fffdf8;--ink:#20302b;--muted:#5f6f68;--line:#e2ddce;
+    --teal:#1f7a6b;--teal-d:#155c50;--gold:#bf9a4a;--gold-d:#9a7a33;--sage:#8fb0a4;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Inter",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;line-height:1.14;font-weight:600}
+  a{color:var(--teal-d)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 clamp(1.25rem,5vw,2rem)}
+  .eyebrow{text-transform:uppercase;letter-spacing:.24em;font-size:.72rem;font-weight:700;color:var(--gold-d)}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:.98rem;padding:.85rem 1.6rem;border-radius:11px;transition:transform .15s;cursor:pointer}
+  .btn-teal{background:linear-gradient(180deg,var(--teal),var(--teal-d));color:#fff}
+  .btn-teal:hover{transform:translateY(-1px)}
+  .btn-ghost{background:var(--surface);border:1px solid var(--line);color:var(--ink)}
+
+  header{text-align:center;padding:clamp(3.5rem,9vw,5.5rem) 0 clamp(2.5rem,5vw,3.5rem);
+    background:radial-gradient(60% 60% at 50% 0%,rgba(143,176,164,.28),transparent 62%)}
+  header .soon{display:inline-block;border:1px solid var(--line);background:var(--surface);border-radius:999px;
+    padding:.4rem 1.1rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-d);font-weight:700;margin-bottom:1.5rem}
+  header h1{font-size:clamp(2.5rem,8vw,4rem);font-weight:700}
+  header .tag{font-family:"Fraunces",serif;font-style:italic;color:var(--teal-d);font-size:clamp(1.15rem,3vw,1.5rem);margin-top:.6rem}
+  header p.lead{color:var(--muted);max-width:50ch;margin:1.4rem auto 2rem;font-size:1.08rem}
+  .cta-row{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap}
+
+  section{padding:clamp(2.6rem,6vw,3.6rem) 0;border-top:1px solid var(--line)}
+  .head{text-align:center;max-width:54ch;margin:0 auto 1.8rem}
+  .head h2{font-size:clamp(1.6rem,4vw,2.2rem);margin:.4rem 0 0}
+  .head p{color:var(--muted);margin-top:.6rem}
+  .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px}
+  .card .ic{font-size:1.7rem}
+  .card h3{font-size:1.1rem;margin:.5rem 0 .3rem}
+  .card p{color:var(--muted);font-size:.95rem}
+
+  .team{display:grid;gap:14px;grid-template-columns:1fr 1fr;max-width:640px;margin:0 auto}
+  @media(max-width:560px){.team{grid-template-columns:1fr}}
+  .person{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;text-align:center}
+  .person b{font-family:"Fraunces",serif;font-weight:600;font-size:1.15rem;display:block}
+  .person .role{color:var(--gold-d);font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin:.2rem 0 .5rem}
+  .person p{color:var(--muted);font-size:.9rem}
+
+  form{max-width:480px;margin:1.2rem auto 0}
+  .frow{display:flex;gap:.6rem;flex-wrap:wrap}
+  input{flex:1;min-width:200px;background:var(--surface);border:1px solid var(--line);border-radius:11px;color:var(--ink);padding:.8rem .9rem;font-size:1rem;font-family:inherit}
+  input:focus{outline:2px solid var(--teal)}
+  .ok{display:none;color:var(--teal-d);font-weight:600;margin-top:1rem;text-align:center}
+
+  .disc{background:#eef0ea;border:1px solid var(--line);border-radius:14px;padding:16px 20px;max-width:680px;margin:2rem auto 0}
+  .disc h4{font-family:"Inter";text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;color:var(--gold-d);margin-bottom:.6rem}
+  .disc p{color:var(--muted);font-size:.82rem;line-height:1.6;margin-bottom:.5rem}
+  .disc p:last-child{margin-bottom:0}
+
+  footer{padding:2.4rem 0;text-align:center;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}
+  footer a{color:var(--teal-d)}
+  .sdg{color:var(--gold-d);font-family:"Fraunces",serif;font-style:italic;margin-top:.5rem}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="soon">🌿 Coming Soon</div>
+      <h1>AI Health &amp; Wellness</h1>
+      <div class="tag">Where faith, wellness, and smart technology meet.</div>
+      <p class="lead">We're building an honest place where modern AI helps people <strong>learn, plan, and pursue a healthier life</strong> — grounded in faith, and free of hype.</p>
+      <div class="cta-row">
+        <a class="btn btn-teal" href="#join">Follow the journey →</a>
+        <a class="btn btn-ghost" href="#vision">The vision</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="vision">
+    <div class="wrap">
+      <div class="head"><span class="eyebrow">The Vision</span><h2>Honest wellness, made simpler by AI</h2>
+        <p>Not another site full of big promises. A calm, honest place for real information and simple tools — the whole person: body, mind, and spirit.</p></div>
+      <div class="grid">
+        <div class="card"><div class="ic">📚</div><h3>Honest education</h3><p>Clear, plain-English information about wellness and healthy living — so you can make your own informed choices.</p></div>
+        <div class="card"><div class="ic">🧭</div><h3>Simple tools</h3><p>AI to help you organize, track, and understand your own wellness journey — a helper, never a doctor.</p></div>
+        <div class="card"><div class="ic">✝️</div><h3>Faith &amp; whole-person</h3><p>Built on the Faith &amp; Fitness belief that real health is body, mind, and spirit together.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="head"><span class="eyebrow">Who's Building It</span><h2>Faith on one side, AI on the other</h2></div>
+      <div class="team">
+        <div class="person"><b>David Hahn</b><div class="role">Faith &amp; Fitness</div><p>Founder of Faith &amp; Fitness Enterprises — bringing the whole-person, faith-first heart of this project.</p></div>
+        <div class="person"><b>William Hahn, Ph.D.</b><div class="role">AI &amp; Technology</div><p>AI researcher and applied mathematician — the technology mind behind the tools. (Not medical advice.)</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="wrap">
+      <div class="head"><span class="eyebrow">Follow Along</span><h2>Be first to know</h2>
+        <p>We're early — join the list and we'll share honest updates as it takes shape. No spam, ever.</p></div>
+      <form id="lead" action="https://formspree.io/f/xbdvqvrk" method="POST">
+        <input type="hidden" name="_subject" value="AI Health & Wellness — interest list" />
+        <div class="frow">
+          <input name="email" type="email" placeholder="Your email" required />
+          <button class="btn btn-teal" type="submit" id="btn">Keep me posted →</button>
+        </div>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true" />
+      </form>
+      <div class="ok" id="ok">🌿 Thank you — you're on the list. We'll be in touch.</div>
+
+      <div class="disc">
+        <h4>Important — please read</h4>
+        <p>This website is for <strong>informational and wellness purposes only</strong>. It is <strong>not medical advice</strong>, not a diagnosis, and not a substitute for care from a licensed healthcare professional. Nothing here is intended to diagnose, treat, cure, or prevent any disease.</p>
+        <p>Always talk with your own doctor or qualified provider before making health decisions. William Hahn, Ph.D. contributes AI and technology expertise, not medical or clinical advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div style="font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.5rem">A Hahn Family &amp; Faith &amp; Fitness initiative</div>
+      <a href="https://hahntechcorp.com">Hahn Technologies Corp</a> · New Bern, NC · Questions? Text (252) 253-9629
+      <div class="sdg">Soli Deo Gloria ✝️</div>
+    </div>
+  </footer>
+  <script>
+    var f=document.getElementById('lead');
+    f.addEventListener('submit',function(e){
+      var hp=f.querySelector('[name=_gotcha]'); if(hp&&hp.value){e.preventDefault();return;}
+      e.preventDefault();
+      var b=document.getElementById('btn'); b.disabled=true; b.textContent='Sending…';
+      fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+        .then(function(r){ if(r.ok){f.style.display='none';document.getElementById('ok').style.display='block';}
+          else{throw new Error();} })
+        .catch(function(){ b.disabled=false; b.textContent='Keep me posted →'; alert('Something went wrong — text (252) 253-9629.'); });
+    });
+  </script>
+</body>
+</html>
